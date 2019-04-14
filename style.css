@@ -1,0 +1,44 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("header.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+h3 {
+	color: FloralWhite;
+}
+
+.text_display {
+	min-height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button_display {
+	min-height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.btn-light {
+  color: white;
+  background-color: #B80707;
+}
+
+
+
